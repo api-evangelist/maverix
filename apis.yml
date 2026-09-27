@@ -56,3 +56,10 @@ x-enrichment:
     parking/forwarding IPs (NS domaincontrol.com) and 301-redirects to the dead apex.
     No live website, developer portal, API, or OpenAPI surface. Not in apis.io catalog.
     Nothing real to search, derive, or probe.'
+x-lifecycle:
+  state: shuttered
+  reason: domain-does-not-resolve
+  observed: '2026-09-27'
+  detail: >-
+    The company's own domain returned no A or AAAA record when probed. This is an observation about the domain, not a request from the company.
+  indexed: false
